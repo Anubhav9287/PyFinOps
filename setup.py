@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="PyFinOps",
-    version="0.2.0",
+    version="0.3.2",
     author="Anubhav Sharma",
     author_email="anubhav9287@gmail.com",
     description="A comprehensive toolkit for various financial calculations and tools.",
@@ -20,6 +20,8 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Topic :: Office/Business :: Financial :: Accounting",
+        "Topic :: Software Development :: Libraries :: Python Modules"
     ],
     python_requires='>=3.6',
 )

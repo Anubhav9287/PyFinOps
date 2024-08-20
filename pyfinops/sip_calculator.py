@@ -3,6 +3,7 @@ from decimal import Decimal, getcontext
 # Set the precision high enough to handle financial calculations
 getcontext().prec = 28
 
+
 class SIPCalculator:
     def __init__(self, monthly_investment: float, annual_rate: float, years: int):
         """
@@ -26,7 +27,8 @@ class SIPCalculator:
         Returns:
         - future_value: The calculated future value of the investment.
         """
-        future_value = self.monthly_investment * (((1 + self.monthly_rate) ** self.total_payments - 1) / self.monthly_rate) * (1 + self.monthly_rate)
+        future_value = self.monthly_investment * (
+                    ((1 + self.monthly_rate) ** self.total_payments - 1) / self.monthly_rate) * (1 + self.monthly_rate)
         return future_value.quantize(Decimal('0.01'))  # Rounds to 2 decimal places
 
     def display_sip_details(self):
