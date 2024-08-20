@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+---
+
+### Explanation:
+- **Installation**: The `pip install PyFinOps` command allows users to easily install the package.
+- **Usage Examples**: Code examples show how to use each calculator feature programmatically.
+- **Command-Line Usage**: Examples demonstrate how to use the package directly from the command line after installation.
+- **License**: Indicates that the project is under the MIT License.
+
+This usage section will help users understand how to utilize the `PyFinOps` package both programmatically and via the command line.

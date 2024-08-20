@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="PyFinOps",
-    version="0.1.0",
+    version="0.2.0",
     author="Anubhav Sharma",
     author_email="anubhav9287@gmail.com",
     description="A comprehensive toolkit for various financial calculations and tools.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/anubhav9287/PyFinOps",
+    url="https://github.com/Anubhav9287/PyFinOps",
     packages=find_packages(exclude=["tests"]),
     entry_points={
         "console_scripts": [
